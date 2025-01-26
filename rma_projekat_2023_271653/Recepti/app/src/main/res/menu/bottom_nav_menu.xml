@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/navigation_sacuvani_recepti"
+        android:icon="@drawable/sacuvani_recepti"
+        android:title="Sacuvani recepti" />
+    <item
+        android:id="@+id/navigation_home"
+        android:icon="@drawable/home"
+        android:title="Home" />
+    <item
+        android:id="@+id/navigation_kupovina"
+        android:icon="@drawable/kupovina"
+        android:title="Lista za kupovinu" />
+</menu>

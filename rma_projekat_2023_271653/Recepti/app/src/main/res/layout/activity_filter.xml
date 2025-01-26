@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <CheckBox
+            android:id="@+id/sir_cb"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="sir" />
+
+        <CheckBox
+            android:id="@+id/paradajz_cb"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="paradajz" />
+
+        <CheckBox
+            android:id="@+id/pasta_cb"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="pasta" />
+
+        <CheckBox
+            android:id="@+id/piletina_cb"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="piletina" />
+
+        <CheckBox
+            android:id="@+id/testo_cb"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="testo" />
+
+        <CheckBox
+            android:id="@+id/pelat_cb"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="pelat" />
+
+        <Button
+            android:id="@+id/apply_filter_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Primeni" />
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
